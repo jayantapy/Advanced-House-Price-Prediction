@@ -1,11 +1,2 @@
-**1. In this project, I predicted the prices of Bengaluru houses. I dropped certain features that were not needed to build our model.**
-
-**2. Following that was the Data Cleaning process where I handled null values.Then I performed Feature Engineering on the dataset which included adding new features, andling outliers and so on.**
-
-**3. The above step was supported by Data Visualization as well. Finally to convert categorical features into numerical, I used one hot encoding.**
-
-**4. After splitting the data into training and test sets, I trained the model using Linear Regression getting an accuracy of about 84.5%.**
-
-**5. Finally I used GridSearchCV to find the best model and found that Linear Regression among others was the best model.**
-
-**6. The step by step explanation can be found in each part of the code.**
+1. The 1st use case was about predicting prices of Bengaluru houses using ML techniques.Certain EDA such as _**Data Cleaning**,**Handling Outliers**, **Feature Selection**,**Feature Engineering,One Hot Encoding** _and_ **Data Visualization**_ were done.<br>
+Got an accuracy of about 85% after building the model. Used _GridSearchCV_ to find the best model and found that Linear Regression among others was the best model.
